@@ -78,9 +78,11 @@ body, html {
 <br>
 <br>
 <br>
-      <form action = "https://rakeshk99.pythonanywhere.com/readData" style="margin: auto; width: 220px;" method = "post" enctype="multipart/form-data">
+      <form action = "https://suraj1304.pythonanywhere.com/locomachine" style="margin: auto; width: 220px;" method = "post" enctype="multipart/form-data">
       <label for="myfile">Select a file:</label>
-  	<input type="file" id="myfile" name="myfile"><br><br>
+  	<input type="file" id="myfile" name="myfile" required><br><br>
+      <label for="min_sup">Min Support:</label>
+      <input min="1" max="1000" type="number" id="min_sup" name="min_sup" required><br><br>
   	<input type="submit">
       </form>
 <br>
